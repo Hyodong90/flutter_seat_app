@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SeatSelectBox extends StatelessWidget {
-  SeatSelectBox(this.selectedCol, this.selectedRow, this.onSelected);
+  SeatSelectBox(this.selectedRow, this.selectedCol, this.onSelected);
 
   int? selectedCol;
   int? selectedRow;
